@@ -51,8 +51,8 @@ const MainCard = ({ bankName, fintechUseNo }) => {
       <CardTitle>{bankName}</CardTitle>
       <FintechUseNo>{fintechUseNo}</FintechUseNo>
       <ButtonBlock>
-        <QrButton onClick={handleQrButton}>qr코드</QrButton>
-        <BalanceButton onClick={handleBalanceButton}>잔액조회</BalanceButton>
+        <QrButton onClick={handleQrButton}>QR 코드</QrButton>
+        <BalanceButton onClick={handleBalanceButton}>잔액 조회</BalanceButton>
       </ButtonBlock>
     </CardBlock>
   );

@@ -55,7 +55,7 @@ const ModalCard = ({ bankName, fintechUseNo, tofintechno }) => {
       req_client_num: "HONGGILDONG1234",
       req_client_fintech_use_num: fintechUseNo,
       transfer_purpose: "ST",
-      recv_client_name: "진상언",
+      recv_client_name: "Klaus",
       recv_client_bank_code: "097",
       recv_client_account_num: "232000067812",
     });
