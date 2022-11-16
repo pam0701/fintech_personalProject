@@ -9,7 +9,7 @@ const StateExample = () => {
   };
 
   const handleClick = () => {
-    alert("버튼을 글릭했습니다.");
+    alert("버튼을 클릭했습니다.");
   };
 
   return (

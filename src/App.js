@@ -18,7 +18,7 @@ function App() {
           <ListExmaple></ListExmaple>
         </Route>
         <Route path="/test2" exact>
-          <TopHeader title="테스트2 입니다."></TopHeader>
+          <TopHeader title="테스트 2입니다."></TopHeader>
         </Route>
         <Route path="/axiosTest" exact>
           <AxiosExample></AxiosExample>

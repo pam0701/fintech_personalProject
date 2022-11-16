@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import TopHeader from "../components/common/TopHeader";
 import axios from "axios";
 import MainCard from "../components/main/MainCard";
+
 const Mainpage = () => {
   const [accountList, setAccountList] = useState([]);
 
@@ -36,8 +37,8 @@ const Mainpage = () => {
 
   return (
     <>
-      <TopHeader title="계좌목록"></TopHeader>
-      {/* ㅂㅏㄴ보ㄱㄱ문문을  통통해  카카드  그그리리기기 */}
+      <TopHeader title="계좌 목록"></TopHeader>
+      {/* 반복문을  통해  카드  그리기 */}
       {accountList.map((account) => {
         return (
           <MainCard
